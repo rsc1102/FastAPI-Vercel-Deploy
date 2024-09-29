@@ -1,0 +1,9 @@
+h1{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+body{
+    background-color: lightgrey;
+}
