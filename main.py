@@ -10,7 +10,8 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
 origins = [
-    "fastapi-vercel-deploy.vercel.app",
+    "127.0.0.1"
+    ".vercel.app",
     ".onrender.com"
 ]
 
